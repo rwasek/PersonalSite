@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cuprum&family=Sahitya&display=swap');
+:root {
+  --mainColor: rgb(53, 254, 217);
+}
+
+html {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    
+}
+
+body {
+    /* background-image: url(/Users/richwasek/SD/HTML/PersonalSite/html/assets/images/nyc.jpeg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(52, 58, 64);
+    font-family: 'Cuprum', sans-serif;
+    color: white;
+}
+
+i {
+  font-size: 42px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(53, 254, 217); 
+  text-decoration: none;
+}
+
+/* footer {
+    background-color: #b8b8b8;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+} */
+
+h1 {
+    text-align: center;
+    font-size: 85px;
+    padding-bottom: 50px;
+    text-shadow: rgb(52, 58, 64) 5px 2px;
+}
+
+/* Class Selectors */
+.portfoliohead {
+  padding-top: 100px;
+  color: #ECF0F1;
+  text-shadow: rgb(52, 58, 64) 5px 2px;
+  
+}
+
+.card {
+  background-color: black;
+}
+
+.card-title {
+  text-align: center;
+  font-style: italic;
+}
+
+.contact {
+  align-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* ID Selectors */
+
+#navlead:hover, #navlink:hover {
+  background-size: 4px 50px;
+  color: black;
+}
+
+#navlead {
+  font-size: 36px;
+}
+
+#navlink {
+  font-size: 24px;
+}
+
+#navlead, #navlink {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+#headpara {
+  font-size: 28px;
+  color: whitesmoke;
+  text-shadow: rgb(0, 0, 0) 2px 2px;
+  /* background-color: rgb(52, 58, 64, 0.5); */
+}
+
+#languages, #portfolio, #contact {
+  margin-top: 100px;
+  font-size: 28px;
+  padding-top: 125px;
+  padding-bottom: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#home {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 140px;
+}
+
+#contact {
+  background-color: rgb(52, 58, 64, 0.85);
+}
+
+#languageTitle {
+  font-size: 70px;
+}
+
+
